@@ -22,8 +22,6 @@ export default function Home() {
           description: 'Agendas/events/reminders on desktop wallpaper. Real-time update. Customizable.',
           images: [{
             url: 'https://wallcal.app/my-assets/twitter-card.png',
-            width: 1600,
-            height: 800,
             alt: 'WallCal desktop wallpaper calendar blotter alternative'
           }]
         } }
