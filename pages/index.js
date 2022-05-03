@@ -14,7 +14,7 @@ export default function Home() {
         title="WallCal - Beautiful transparent calendar on desktop wallpaper for macOS"
         description="Agendas/events/reminders on desktop wallpaper. Real-time update. Customizable."
         canonical="https://wallcal.app/"
-        twitter={ { site: '@WallCalApp', handle: '@minhnh94' } }
+        twitter={ { site: '@WallCalApp', handle: '@minhnh94', cardType: 'summary_large_image' } }
         openGraph={ {
           url: 'https://wallcal.app/',
           type: 'website',
