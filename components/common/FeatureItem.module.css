@@ -1,0 +1,5 @@
+@supports (-webkit-touch-callout: none) and (not (translate: none)) {
+    .mb_equal_flex_gap_6:not(:last-child) {
+        margin-bottom: 1.5rem;
+    }
+}
