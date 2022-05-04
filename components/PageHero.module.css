@@ -1,0 +1,5 @@
+@supports (-webkit-touch-callout: none) and (not (translate: none)) {
+    .max_h_10_safari_ios_14 {
+        max-height: 10em;
+    }
+}

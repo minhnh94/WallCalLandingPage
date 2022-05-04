@@ -1,7 +1,7 @@
 const FeatureBlock = ({ icon, heading, description }) => (
   <div className="ml-6 mr-6 md:ml-[0px] md:w-1/3 mt-[30px] md:mr-[30px] p-9 rounded-3xl bg-white">
     <div className="text-center">
-      <div className="w-12 h-12 p-3 m-auto rounded-full bg-slate-blue">
+      <div className="w-12 h-12 p-2 m-auto rounded-full bg-slate-blue">
         { icon }
       </div>
       <h5 className="mt-4 text-xl font-bold"> { heading }</h5>

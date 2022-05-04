@@ -1,12 +1,5 @@
-import ShieldIcon from '@heroicons/react/outline/ShieldCheckIcon';
-import ChartBarIcon from '@heroicons/react/outline/ChartBarIcon';
-import LightningBoltIcon from '@heroicons/react/outline/LightningBoltIcon';
-import BellIcon from '@heroicons/react/outline/BellIcon';
-import XIcon from '@heroicons/react/outline/XIcon';
-
-import { useState } from 'react';
-import Image from "next/image";
 import AppLogo from "./common/AppLogo";
+import styles from "./PageHero.module.css";
 
 const Nav = () => (
   <nav>
@@ -46,7 +39,7 @@ const PageHero = () => {
             </div>
           </div>
           <div
-            className="flex order-1 px-8 mt-12 md:mt-24 md:order-2 bg-gradient-to-r from-feeling-moody-start to-feeling-moody-end rounded-2xl">
+            className={ `flex order-1 px-8 mt-12 md:mt-24 md:order-2 bg-gradient-to-r from-feeling-moody-start to-feeling-moody-end rounded-2xl ${styles.max_h_10_safari_ios_14}` }>
             <img
               src="/my-assets/wallcal-screenshot.png"
               className="pt-4 md:pt-[60px] m-auto -mb-6 md:-mb-12"
