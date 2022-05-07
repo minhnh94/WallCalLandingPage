@@ -5,7 +5,7 @@ const AppLogo = () => {
         <img
           className="cursor-pointer h-12"
           src="/my-assets/app-icon.svg"
-          alt="Logo"
+          alt="WallCal app logo blotter alternative"
         />
         <span className="font-medium text-3xl">WallCal</span>
       </a>

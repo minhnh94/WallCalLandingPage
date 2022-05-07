@@ -25,6 +25,10 @@ export default function Home() {
             alt: 'WallCal desktop wallpaper calendar blotter alternative'
           }]
         } }
+        additionalMetaTags={ [{
+          name: 'keywords',
+          content: 'wallcal, calendar, desktop, wallpaper, blotter, background, schedule, reminder, event'
+        }] }
       />
 
       <main>

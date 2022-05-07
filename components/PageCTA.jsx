@@ -1,7 +1,8 @@
 const PrimaryButton = () => (
   <div className="pt-12">
     <a href="https://apps.apple.com/app/wallcal-wallpaper-calendar/id1581367286" target="_blank"
-       className="inline-block px-12 py-4 font-medium text-white rounded-lg text-desktop-paragraph font-dm-sans bg-slate-blue hover:opacity-90" rel="noreferrer">
+       className="inline-block px-12 py-4 font-medium text-white rounded-lg text-desktop-paragraph font-dm-sans bg-slate-blue hover:opacity-90"
+       rel="nofollow noreferrer">
       Download for free
     </a>
   </div>

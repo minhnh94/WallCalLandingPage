@@ -30,7 +30,8 @@ const PageHero = () => {
             </p>
             <div className="mt-8">
               <a href="https://apps.apple.com/app/wallcal-wallpaper-calendar/id1581367286" target="_blank"
-                 className="inline-block w-full px-8 py-4 text-white rounded-lg bg-slate-blue filter hover:brightness-125 text-desktop-paragraph md:w-auto" rel="noreferrer">
+                 className="inline-block w-full px-8 py-4 text-white rounded-lg bg-slate-blue filter hover:brightness-125 text-desktop-paragraph md:w-auto"
+                 rel="nofollow noreferrer">
                 Try it free
               </a>
               <p className="text-slate-body text-[13px] mt-3">
