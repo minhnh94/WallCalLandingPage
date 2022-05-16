@@ -6,8 +6,10 @@ import OtherFeatureList from "../components/OtherFeatureList";
 import PageCTA from "../components/PageCTA";
 import PageFooter from "../components/PageFooter";
 import { NextSeo } from "next-seo";
+import FAQ from "../components/FAQ";
+import { parseProperties, queryDatabase } from "../api/queryDatabase";
 
-export default function Home() {
+export default function Home({ listFAQItems }) {
   return (
     <div>
       <NextSeo
@@ -115,8 +117,19 @@ export default function Home() {
             ],
           ] }/>
         <PageCTA/>
+        <FAQ items={ listFAQItems }/>
         <PageFooter/>
       </main>
     </div>
   )
+}
+
+export async function getStaticProps() {
+  const database = await queryDatabase();
+  return {
+    props: {
+      listFAQItems: parseProperties(database),
+    },
+    revalidate: 3600,
+  }
 }
