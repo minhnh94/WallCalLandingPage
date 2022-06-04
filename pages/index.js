@@ -96,7 +96,7 @@ export default function Home({ listFAQItems }) {
               {
                 icon: <CheckCircleIcon className="text-white"/>,
                 heading: "Choose number of days to show",
-                description: "(Week view only) Option to display only today's agenda, or up to the next 7 days'"
+                description: "(Week view only) Option to display only today's agenda, or this week's days', or up to the next 7 days'"
               },
             ], [
               {
@@ -130,6 +130,6 @@ export async function getStaticProps() {
     props: {
       listFAQItems: parseProperties(database),
     },
-    revalidate: 3600,
+    revalidate: 43200,
   }
 }

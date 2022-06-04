@@ -14,7 +14,7 @@ const PageCTA = () => (
       className="max-w-6xl px-6 py-16 text-center md:py-24 md:m-auto bg-gradient-to-r from-feeling-moody-start to-feeling-moody-end rounded-3xl">
       <div className="max-w-xl m-auto">
         <h5 className="text-base font-bold uppercase font-dm-sans text-slate-orange">
-          Supports macOS 10.15 (Catalina) and higher
+          Supports macOS 11 (Big Sur) and higher
         </h5>
         <h2 className="mt-[18px] font-medium leading-snug text-mobile-h2 md:text-desktop-h2 font-dm-sans">
           Let&#39;s blend your calendar in your desktop wallpaper!

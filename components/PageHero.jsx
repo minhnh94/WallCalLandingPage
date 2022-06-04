@@ -35,7 +35,7 @@ const PageHero = () => {
                 Try it free
               </a>
               <p className="text-slate-body text-[13px] mt-3">
-                Supports macOS 10.15 (Catalina) and higher
+                Supports macOS 11 (Big Sur) and higher
               </p>
             </div>
           </div>
