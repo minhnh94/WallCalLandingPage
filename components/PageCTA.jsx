@@ -1,3 +1,6 @@
+import SetappBanner from "./SetappBanner"
+import SetappButton from "./common/SetappButton"
+
 const PrimaryButton = () => (
   <div className="pt-12">
     <a href="https://apps.apple.com/app/wallcal-wallpaper-calendar/id1581367286" target="_blank"
@@ -6,7 +9,7 @@ const PrimaryButton = () => (
       Download for free
     </a>
   </div>
-);
+)
 
 const PageCTA = () => (
   <section className="py-16 md:py-[90px] bg-slate-light px-6 md:px-0">
@@ -24,8 +27,10 @@ const PageCTA = () => (
         </p>
       </div>
       <PrimaryButton/>
+      <SetappButton/>
     </div>
+    <SetappBanner/>
   </section>
-);
+)
 
-export default PageCTA;
+export default PageCTA

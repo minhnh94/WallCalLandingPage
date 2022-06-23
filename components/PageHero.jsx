@@ -1,6 +1,7 @@
 import AppLogo from "./common/AppLogo"
 import styles from "./PageHero.module.css"
 import Image from "next/image"
+import SetappButton from "./common/SetappButton"
 
 const Nav = () => (
   <nav>
@@ -35,6 +36,7 @@ const PageHero = () => {
                  rel="nofollow noreferrer">
                 Try it free
               </a>
+              <SetappButton/>
               <p className="text-slate-body text-[13px] mt-3">
                 Supports macOS 11 (Big Sur) and higher
               </p>
