@@ -1,4 +1,4 @@
-import AppLogo from "./common/AppLogo";
+import AppLogo from "./common/AppLogo"
 
 const PageFooter = () => (
   <footer className="bg-slate-light font-dm-sans">
@@ -6,7 +6,8 @@ const PageFooter = () => (
       <div className="items-center md:space-x-12 md:flex">
         <AppLogo/>
         <p className="mt-6 text-sm font-normal md:mt-0 md:w-1/5 text-slate-body">
-          A product from <a href="https://tsukie.com/" target="_blank" rel="nofollow noreferrer"><span className="underline">tsukie</span></a>
+          Please contact us at <a href="mailto:tsukie.studio@gmail.com" target="_blank" rel="nofollow noreferrer"><span
+          className="underline">tsukie.studio@gmail.com</span></a> for inquiries or support.
         </p>
       </div>
       <hr className="my-6"/>
@@ -20,6 +21,6 @@ const PageFooter = () => (
       </div>
     </div>
   </footer>
-);
+)
 
-export default PageFooter;
+export default PageFooter
