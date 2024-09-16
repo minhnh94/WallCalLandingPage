@@ -7,7 +7,7 @@ const PageFooter = () => (
         <AppLogo/>
         <p className="mt-6 text-sm font-normal md:mt-0 md:w-1/5 text-slate-body">
           Please contact us at <a href="mailto:tsukie.studio@gmail.com" target="_blank" rel="nofollow noreferrer"><span
-          className="underline">tsukie.studio@gmail.com</span></a> for inquiries or support.
+          className="underline">support@wallcal.app</span></a> for inquiries or support.
         </p>
       </div>
       <hr className="my-6"/>
