@@ -15,7 +15,7 @@ export default function ExpertCalendarAddon() {
             </h3>
             <br />
             <Image
-              src="/my-assets/weekly-agenda.gif"
+              src="https://i.imgur.com/sxZBLru.gif"
               alt="WeeklyAgenda WallCal"
               layout="intrinsic"
               width={600}
@@ -28,7 +28,7 @@ export default function ExpertCalendarAddon() {
             </h3>
             <br />
             <Image
-              src="/my-assets/visible-period.gif"
+              src="https://i.imgur.com/s39T4MX.gif"
               alt="VisiblePeriod WallCal"
               layout="intrinsic"
               width={600}
@@ -42,19 +42,8 @@ export default function ExpertCalendarAddon() {
             </h3>
             <br />
             <Image
-              src="/my-assets/day-num.gif"
+              src="https://i.imgur.com/opclUZV.gif"
               alt="DayNum WallCal"
-              layout="intrinsic"
-              width={600}
-              height={600}
-              objectFit="contain"
-            />
-            <br />
-            <h3>📐 Resize the calendar freely as you see fit</h3>
-            <br />
-            <Image
-              src="/my-assets/resize-calendar.gif"
-              alt="ResizeCalendar WallCal"
               layout="intrinsic"
               width={600}
               height={600}
@@ -67,7 +56,7 @@ export default function ExpertCalendarAddon() {
             </h3>
             <br />
             <Image
-              src="/my-assets/toggle-calendar-set.gif"
+              src="https://i.imgur.com/C8KOvE7.gif"
               alt="ToggleCalendarSetToggleCalendarSet WallCal"
               layout="intrinsic"
               width={600}
@@ -81,7 +70,7 @@ export default function ExpertCalendarAddon() {
             </h3>
             <br />
             <Image
-              src="/my-assets/toggle-hidden-view.gif"
+              src="https://i.imgur.com/UfuBAR9.gif"
               alt="ToggleHiddenViewToggleHiddenView WallCal"
               layout="intrinsic"
               width={600}
@@ -92,7 +81,7 @@ export default function ExpertCalendarAddon() {
             <h3>🎨 Change the calendar&apos;s background color freely</h3>
             <br />
             <Image
-              src="/my-assets/change-color.gif"
+              src="https://i.imgur.com/wznPnyF.gif"
               alt="ChangeColor WallCal"
               layout="intrinsic"
               width={600}
